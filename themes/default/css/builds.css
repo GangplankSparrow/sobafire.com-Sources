@@ -1,0 +1,130 @@
+
+table, tr, th, td{border:0px solid #000;border-spacing:0px; margin:0px;padding:0px;}
+.clear{clear:both;}
+
+.silverTitle .silverTitleLeft .rightArrow{width:6px;height:11px;position:absolute;left:120px;top:8px}
+.silverTitle .silverTitleLeft{background:#161719 url('imagesheader-left.png') no-repeat;width:138px;height:23px;float:left;position:relative;padding: 6px 0 0 12px;}
+.silverTitle .silverTitleLeft.closeToLeft{padding-left:5px}
+.silverBigBox .silverBigBoxTop{background:url('imagesbox-top.png') no-repeat;height:10px}
+.silverBigBox .silverBigBoxMid{background:url('imagesbox-repeat.png');padding:0px 9px;color:#8D9094}
+.silverBigBox .silverBigBoxBot{background:url('imagesbox-bottom.png') center bottom no-repeat;height:10px}
+.silverTitle{background:#161719 url('imagesheader-repeat.png') repeat-x;height:29px;color:#fff;font-weight:bold}
+
+.masteries2{margin:35px 0px 0px 0px;}
+.masteries2 td{border:1px solid #61718A;vertical-align:top;text-align:center;width:300px;height:600px;}
+.masteries2 .treetitle{color: #FFFFFF;font-size: 16px;font-weight: bold;margin: 30px 0 20px 0;text-align: center;width: 100%;}
+.masteries2 .masttree{margin:0px 0px 0px 10px;overflow:auto;}
+.masteries2 table{border-collapse:collapse;}
+.masteries2 td .box, .masteries2 td .box0, .masteries2 td .sb{margin:9px 7px;width:56px;height:68px;float:left;overflow:hidden;text-align:center;position:relative; z-index:5;}
+.masteries2 td .box img{width:49px;height:49px;}
+.masteries2 td .box img.disabled{display:none;}
+.masteries2 td .box0 img.disabled{position:relative;top:-59px;z-index:5;}
+.masteries2 td .box .boxtext, .masteries2 td .box0 .boxtext{border:1px solid #977602;background:#000;color:#99FF35;position:relative;padding:0px 3px;top:-23px;text-align:center;}
+.masteries2 td .box0 .boxtext{border:1px solid #737371;background:#000;color:#626262;top:-69px;z-index: 10;}
+
+.small_masteries2{margin:35px 0px 0px 0px;}
+.small_masteries2 td{border:1px solid #61718A;vertical-align:top;text-align:center;width:300px;height:600px;}
+.small_masteries2 .treetitle{color: #FFFFFF;font-size: 16px;font-weight: bold;margin: 30px 0 20px 0;text-align: center;width: 100%;}
+.small_masteries2 .masttree{margin:0px;overflow:auto;}
+.small_masteries2 table{border-collapse:collapse;}
+.small_masteries2 td .box, .small_masteries2 td .box0, .small_masteries2 td .sb{margin:9px 4px;width:56px;height:68px;float:left;overflow:hidden;text-align:center;position:relative; z-index:5;}
+.small_masteries2 td .box img{width:49px;height:49px;}
+.small_masteries2 td .box img.disabled{display:none;}
+.small_masteries2 td .box0 img.disabled{position:relative;top:-56px;z-index:5;}
+.small_masteries2 td .box .boxtext, .small_masteries2 td .box0 .boxtext{border:1px solid #977602;background:#000;color:#99FF35;position:relative;padding:0px 3px;top:-23px;text-align:center;}
+.small_masteries2 td .box0 .boxtext{border:1px solid #737371;background:#000;color:#626262;top:-69px;z-index: 10;}
+
+#pop{background:url("http://www.sobafire.com/themes/default/images/dark/pop_bg.png");text-align:center;color:#bbb;position:absolute;display:none;max-width:500px;padding:20px;overflow:hidden;z-index:9999;}
+.dpoph, #dpophloading, #poperr{display:none;}
+#bottomlimit{position:fixed;bottom:0px;}
+.backupText{background:#000;border:1px solid #61718A;color:#fff;width:900px;height:500px;margin-bottom:50px;}
+
+.guide{width:auto}
+.guideSilver{color:#C6C6C6;width:780px;position:relative;overflow:hidden;float:left;font-size:12px}
+.guideSilver .shader{position:absolute;left:0px;top:0px;}
+.guideSilver .shaderf{position:relative;min-height:600px;}
+.guideSilver .table{border-collapse:collapse;}
+.guideSilver .champname{font-size:60px; color:#229693;} /* mavimsi renk */
+.guideSilver .title{margin:20px 0px 0px 20px; width:350px; font-size:20px; background-color: rgba(0, 0, 0, 0.5); padding: 10px 0px 30px 30px;}
+.guideSilver .title .guideSilverName{color:#229693; font-size:30px; margin-top:20px}
+.guideSilver .title .guideSilverAuthor{color:#aaa; font-size:20px; margin-top:20px}
+.guideSilver .votes{ background-color: rgba(0, 0, 0, 0.5); padding:20px; margin-left:20px; margin-top:10px; margin-bottom:10px; width:280px; vertical-align:middle; text-align:center;}
+.guideSilver .votes .dislikeBar{width:250px;height:17px;background:#f00 url('imagesred-vote.png') repeat-x;margin:5px auto}
+.guideSilver .votes .likeBar{height:17px;background:#0f0 url('imagesgreen-vote.png') repeat-x}
+.guideSilver .votes .like{color:#0f0;font-weight:bold;}
+.guideSilver .votes .dislike{color:#f00;font-weight:bold;}
+.guideSilver .votes .textSpacer{display:inline;padding:0px 30px}
+.guideSilver img{vertical-align:middle;}
+.guideSilver .votes img{vertical-align:bottom;}
+.guideSilver .toptitle{font-size:20px;font-weight:bold;color:#fff;}
+.guideSilver .runes{margin:0px 10px 0px 0px;vertical-align:bottom;}
+.guideSilver .runes table{border-collapse:separate;border-spacing:1px;}
+.guideSilver .runes td{background:url("http://www.solomid.net/images/slider_text_bg.png");border:1px solid #61718A;vertical-align:middle;text-align:left;}
+.guideSilver .runes td img{margin:5px;width:30px;height:30px;}
+.guideSilver .runes tr .text{padding:10px;width:300px;}
+.guideSilver .runes tr .text2{font-size:20px;font-weight:bold;padding:0px 10px;color:#ccc;}
+.guideSilver .summoners img{border:1px solid #61718A;margin:10px 5px 0px 5px;width:70px;height:70px;}
+.guideSilver .masteries{margin:0px 0px 0px 0px;}
+.guideSilver .masteries td{border:1px solid #61718A;vertical-align:top;text-align:center;width:300px;height:600px;}
+.guideSilver .masteries .treetitle{width:200px;margin:30px 0px 10px 30px;text-align:left;font-size:16px;font-weight:bold;color:#fff;}
+.guideSilver .masteries .masttree{margin:0px 0px 0px 20px;}
+.guideSilver .masteries table{border-collapse:collapse;}
+.guideSilver .masteries td .box, .guideSilver .masteries td .box0,.guideSilver .masteries td .sb{margin:9px 2px;width:50px;height:60px;float:left;overflow:hidden;text-align:center;}
+.guideSilver .masteries td .box img{width:49px;height:49px;}
+.guideSilver .masteries td .box img.disabled{display:none;}
+.guideSilver .masteries td .box0 img.disabled{position:relative;top:-49px;}
+.guideSilver .masteries td .box .boxtext, .guideSilver .masteries td .box0 .boxtext{border:1px solid #977602;background:#000;color:#99FF35;position:relative;padding:0px 3px;top:-23px;text-align:center;}
+.guideSilver .masteries td .box0 .boxtext{border:1px solid #737371;background:#000;color:#626262;top:-58px;}
+.guideSilver .skilling{margin-top:0px;}
+.guideSilver .skilling table{border-collapse:collapse;}
+.guideSilver .skilling th, .guideSilver .skilling td{border:1px solid #242424;text-align:center;vertical-align:middle;}
+.guideSilver .skilling th{background:#6F6F6F url("http://www.solomid.net/guide/misc/skillheader.png") repeat-x;color:#39383D;padding:10px 0px;}
+.guideSilver .skilling .dark{background:#0D0D0D;}
+.guideSilver .skilling .light{background:#111113;}
+.guideSilver .skilling td img.skillicon{border:1px solid #3A383B;margin:4px;width:32px;height:32px;}
+.guideSilver .skilling .image{width:42px;}
+.guideSilver .skilling .number{width:32px;}
+.guideSilver .skilling .level{width:126px;}
+.guideSilver .skilling .skillname{text-align:left;padding-left:15px;}
+.guideSilver .items{margin-top:0px;}
+.guideSilver .items .itemsboxcontent{font-size:14px;font-weight:bold;vertical-align:middle;}
+.guideSilver .items .itemsbox{background:#000 url("http://www.solomid.net/guide/misc/buy-order-bg.jpg") top right no-repeat;border:1px solid #444444;width:auto;}
+.guideSilver .items .itemsboxcontent{margin:30px;}
+.guideSilver .items .itemsboxcontent img.item{border:1px solid #3C4049;}
+.guideSilver .items .itemsboxcontent img.full-spacing{width:50px;height:50px;}
+.guideSilver .items .itemsboxcontent img.horizontal-spacing{width:5px;height:50px;}
+.guideSilver .items .itemsboxcontent img.vertical-spacing{width:50px;height:30px;}
+.guideSilver .items .itemsboxcontent img.small-spacing{width:3px;height:30px;}
+.guideSilver .content{margin-top:30px;}
+.guideSilver .content .textbox{margin:10px;}
+.guideSilver .content .index, .guideSilver .content .chapter{width:603px;overflow:hidden;}
+.guideSilver .content .index a{display:block;}
+.guideSilver .content .index ul{list-style-type:none;margin:0px;padding:0px;width:300px;}
+.guideSilver .content .index li{background:#0D0D0D;margin-top:1px;padding:5px 0px 5px 10px;text-align:center;}
+.guideSilver .content .index li:hover{background:#111113;}
+.guideSilver .content .chapter{background:#212326;width:auto;margin-top:30px;border:1px solid #444444;}
+.guideSilver .chaptitle{font-size:20px;font-weight:bold;color:#db6;margin-bottom:20px;text-align:center;margin:10px;}
+.guideSilver .chaptitle .backToTop{float:right;font-size:11px;margin-top:5px}
+.guideSilver .chaptitle .backToTop img{height:14px}
+.guideSilver .subtitle{font-size:14px;font-weight:bold;color:#eee;vertical-align:middle;}
+.guideSilver .content .chapter img{max-width:750px;vertical-align:middle;}
+.guideSilver img.small{width:24px;height:24px;}
+.guideSilver .content .chapter ul, .guideSilver .howto ul{margin:10px 0px 10px 20px;}
+.guideSilver .content .chapter li, .guideSilver .howto li{margin:5px 0px;}
+.guideSilver .numbers{color:#db6;}
+.guideSilver .highlight{font-weight:bold;color:#fd9;}
+.guideSilver .content .chapter table{margin:0px auto; border-spacing:1px;}
+.guideSilver .content .chapter td{border:1px solid #61718A;padding:5px;}
+.guideSilver .content .chapter tr:hover td{background:#000;}
+.guideSilver .content .chapter .youtubePlayer, .guideSilver .content .chapter .own3dPlayer{margin:0px auto;padding:1px;border:1px #444 solid;width:640px;height:390px;}
+.guideSilver .content .chapter .own3dPlayer{height:360px;}
+.guideMenuSilver  .silverTitle,.guideSilver .silverTitle{margin-top:20px}
+.guideSilver .silverTitle .silverTitleLeft{padding-left:20px}
+.guideMenuSilver  .silverTitle .silverTitleLeft{padding-left:5px}
+.guideMenuSilver{width:300px;float:right;background:#161719;}
+.guideMenuSilver .guideInfo{margin:10px;padding:10px;border:1px #787878 solid;}
+.guideMenuSilver .guideInfo strong{color:#fff}
+.guideMenuSilver .tableOfContent ul{margin:10px;padding:5px;list-style-type:none;width:250px}
+.guideMenuSilver .tableOfContent li{border-bottom:1px #787878 solid;padding:5px}
+.guideMenuSilver .tableOfContent li a{display:block}
+.guideMenuSilver .tableOfContent .tableOfContentTitle{color:#fff;font-size:16px;font-weight:bold}

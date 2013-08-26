@@ -1,0 +1,19 @@
+﻿
+Error: 2.05.2013 02:52:55 mysql_error() response: MySQL server has gone away
+Stack trace:
+/home/sobafire.com/httpdocs/index.php on line 37
+	/home/sobafire.com/httpdocs/classes/SiteEngine.class.php on line 118 in function Initialize(array('main' => './pages/main.php', 'login' => './pages/login.php', 'logout' => './pages/logout.php', 'register' => './pages/register.php', 'switchlang' => './pages/switchlang.php', 'account' => './pages/account.php', 'contact' => './pages/contact.php', 'admin' => './pages/admin.php', 'build' => './pages/build.php', 'sobafire' => './pages/sobafire.php', 'ajax' => './pages/ajax.php', 'browsebuilds' => './pages/browsebuilds.php', 'browsevideos' => './pages/browsevideos.php', 'browseusers' => './pages/browseusers.php', 'browseteams' => './pages/browseteams.php', 'viewprofile' => './pages/viewprofile.php', 'newsdetail' => './pages/newsdetail.php', 'tournament' => './pages/tournament.php'))
+		/home/sobafire.com/httpdocs/classes/SiteEngine.class.php on line 253 in function getNewsCommentHistory()
+
+Error: 2.05.2013 02:52:55 mysql_error() response: MySQL server has gone away
+Stack trace:
+/home/sobafire.com/httpdocs/index.php on line 37
+	/home/sobafire.com/httpdocs/classes/SiteEngine.class.php on line 119 in function Initialize(array('main' => './pages/main.php', 'login' => './pages/login.php', 'logout' => './pages/logout.php', 'register' => './pages/register.php', 'switchlang' => './pages/switchlang.php', 'account' => './pages/account.php', 'contact' => './pages/contact.php', 'admin' => './pages/admin.php', 'build' => './pages/build.php', 'sobafire' => './pages/sobafire.php', 'ajax' => './pages/ajax.php', 'browsebuilds' => './pages/browsebuilds.php', 'browsevideos' => './pages/browsevideos.php', 'browseusers' => './pages/browseusers.php', 'browseteams' => './pages/browseteams.php', 'viewprofile' => './pages/viewprofile.php', 'newsdetail' => './pages/newsdetail.php', 'tournament' => './pages/tournament.php'))
+		/home/sobafire.com/httpdocs/classes/SiteEngine.class.php on line 268 in function getBuildCommentHistory()
+
+Error: 2.05.2013 02:52:55 mysql_error() response: MySQL server has gone away
+Stack trace:
+/home/sobafire.com/httpdocs/index.php on line 37
+	/home/sobafire.com/httpdocs/classes/SiteEngine.class.php on line 174 in function Initialize(array('main' => './pages/main.php', 'login' => './pages/login.php', 'logout' => './pages/logout.php', 'register' => './pages/register.php', 'switchlang' => './pages/switchlang.php', 'account' => './pages/account.php', 'contact' => './pages/contact.php', 'admin' => './pages/admin.php', 'build' => './pages/build.php', 'sobafire' => './pages/sobafire.php', 'ajax' => './pages/ajax.php', 'browsebuilds' => './pages/browsebuilds.php', 'browsevideos' => './pages/browsevideos.php', 'browseusers' => './pages/browseusers.php', 'browseteams' => './pages/browseteams.php', 'viewprofile' => './pages/viewprofile.php', 'newsdetail' => './pages/newsdetail.php', 'tournament' => './pages/tournament.php'))
+		/home/sobafire.com/httpdocs/pages/main.php on line 23 in function Run()
+			/home/sobafire.com/httpdocs/pages/main.php on line 56 in function getNews()

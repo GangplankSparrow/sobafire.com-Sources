@@ -1,0 +1,159 @@
+#champs { 
+	float: left; 
+	width: 200px; 
+	height: 1430px;
+	background: url("../images/champs-bg.jpg") repeat-y 0 0; 
+}
+
+#champs ul {
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	outline: 0; 
+	font-weight: inherit; 
+	font-style: inherit; 
+	font-size: 100%; 
+	font-family: inherit; 
+	vertical-align: baseline; 
+}
+
+#champs li { 
+	display: inline; 
+}
+
+#champs a { 
+	float: left; 
+	width: 49px; 
+	height: 0; 
+	margin-right: 1px; 
+	padding: 53px 0 0 0; 
+	overflow: hidden; 
+	filter: alpha(opacity=25); 
+	-moz-opacity: .25; 
+	opacity: .25; 
+	background-position: 50% 50%; 
+	background-repeat: no-repeat; 
+	background-size: 44px 44px;
+}
+
+#champs a:hover { 
+	filter: alpha(opacity=100); 
+	-moz-opacity: 1.0; 
+	opacity: 1.0; 
+}
+
+#champs-1 a { background-image: url("../images/lol/avatars/1.png"); }
+#champs-2 a { background-image: url("../images/lol/avatars/2.png"); }
+#champs-3 a { background-image: url("../images/lol/avatars/3.png"); }
+#champs-4 a { background-image: url("../images/lol/avatars/4.png"); }
+#champs-5 a { background-image: url("../images/lol/avatars/5.png"); }
+#champs-6 a { background-image: url("../images/lol/avatars/6.png"); }
+#champs-7 a { background-image: url("../images/lol/avatars/7.png"); }
+#champs-8 a { background-image: url("../images/lol/avatars/8.png"); }
+#champs-9 a { background-image: url("../images/lol/avatars/9.png"); }
+#champs-10 a { background-image: url("../images/lol/avatars/10.png"); }
+#champs-11 a { background-image: url("../images/lol/avatars/11.png"); }
+#champs-12 a { background-image: url("../images/lol/avatars/12.png"); }
+#champs-13 a { background-image: url("../images/lol/avatars/13.png"); }
+#champs-14 a { background-image: url("../images/lol/avatars/14.png"); }
+#champs-15 a { background-image: url("../images/lol/avatars/15.png"); }
+#champs-16 a { background-image: url("../images/lol/avatars/16.png"); }
+#champs-17 a { background-image: url("../images/lol/avatars/17.png"); }
+#champs-18 a { background-image: url("../images/lol/avatars/18.png"); }
+#champs-19 a { background-image: url("../images/lol/avatars/19.png"); }
+#champs-20 a { background-image: url("../images/lol/avatars/20.png"); }
+#champs-21 a { background-image: url("../images/lol/avatars/21.png"); }
+#champs-22 a { background-image: url("../images/lol/avatars/22.png"); }
+#champs-23 a { background-image: url("../images/lol/avatars/23.png"); }
+#champs-24 a { background-image: url("../images/lol/avatars/24.png"); }
+#champs-25 a { background-image: url("../images/lol/avatars/25.png"); }
+#champs-26 a { background-image: url("../images/lol/avatars/26.png"); }
+#champs-27 a { background-image: url("../images/lol/avatars/27.png"); }
+#champs-28 a { background-image: url("../images/lol/avatars/28.png"); }
+#champs-29 a { background-image: url("../images/lol/avatars/29.png"); }
+#champs-30 a { background-image: url("../images/lol/avatars/30.png"); }
+#champs-31 a { background-image: url("../images/lol/avatars/31.png"); }
+#champs-32 a { background-image: url("../images/lol/avatars/32.png"); }
+#champs-33 a { background-image: url("../images/lol/avatars/33.png"); }
+#champs-34 a { background-image: url("../images/lol/avatars/34.png"); }
+#champs-35 a { background-image: url("../images/lol/avatars/35.png"); }
+#champs-36 a { background-image: url("../images/lol/avatars/36.png"); }
+#champs-37 a { background-image: url("../images/lol/avatars/37.png"); }
+#champs-38 a { background-image: url("../images/lol/avatars/38.png"); }
+#champs-39 a { background-image: url("../images/lol/avatars/39.png"); }
+#champs-40 a { background-image: url("../images/lol/avatars/40.png"); }
+#champs-41 a { background-image: url("../images/lol/avatars/41.png"); }
+#champs-42 a { background-image: url("../images/lol/avatars/42.png"); }
+#champs-43 a { background-image: url("../images/lol/avatars/43.png"); }
+#champs-44 a { background-image: url("../images/lol/avatars/44.png"); }
+#champs-45 a { background-image: url("../images/lol/avatars/45.png"); }
+#champs-46 a { background-image: url("../images/lol/avatars/46.png"); }
+#champs-47 a { background-image: url("../images/lol/avatars/47.png"); }
+#champs-48 a { background-image: url("../images/lol/avatars/48.png"); }
+#champs-49 a { background-image: url("../images/lol/avatars/49.png"); }
+#champs-50 a { background-image: url("../images/lol/avatars/50.png"); }
+#champs-51 a { background-image: url("../images/lol/avatars/51.png"); }
+#champs-52 a { background-image: url("../images/lol/avatars/52.png"); }
+#champs-53 a { background-image: url("../images/lol/avatars/53.png"); }
+#champs-54 a { background-image: url("../images/lol/avatars/54.png"); }
+#champs-55 a { background-image: url("../images/lol/avatars/55.png"); }
+#champs-56 a { background-image: url("../images/lol/avatars/56.png"); }
+#champs-57 a { background-image: url("../images/lol/avatars/57.png"); }
+#champs-58 a { background-image: url("../images/lol/avatars/58.png"); }
+#champs-59 a { background-image: url("../images/lol/avatars/59.png"); }
+#champs-60 a { background-image: url("../images/lol/avatars/60.png"); }
+#champs-61 a { background-image: url("../images/lol/avatars/61.png"); }
+#champs-62 a { background-image: url("../images/lol/avatars/62.png"); }
+#champs-63 a { background-image: url("../images/lol/avatars/63.png"); }
+#champs-64 a { background-image: url("../images/lol/avatars/64.png"); }
+#champs-65 a { background-image: url("../images/lol/avatars/65.png"); }
+#champs-66 a { background-image: url("../images/lol/avatars/66.png"); }
+#champs-67 a { background-image: url("../images/lol/avatars/67.png"); }
+#champs-68 a { background-image: url("../images/lol/avatars/68.png"); }
+#champs-69 a { background-image: url("../images/lol/avatars/69.png"); }
+#champs-70 a { background-image: url("../images/lol/avatars/70.png"); }
+#champs-71 a { background-image: url("../images/lol/avatars/71.png"); }
+#champs-72 a { background-image: url("../images/lol/avatars/72.png"); }
+#champs-73 a { background-image: url("../images/lol/avatars/73.png"); }
+#champs-74 a { background-image: url("../images/lol/avatars/74.png"); }
+#champs-75 a { background-image: url("../images/lol/avatars/75.png"); }
+#champs-76 a { background-image: url("../images/lol/avatars/76.png"); }
+#champs-77 a { background-image: url("../images/lol/avatars/77.png"); }
+#champs-78 a { background-image: url("../images/lol/avatars/78.png"); }
+#champs-79 a { background-image: url("../images/lol/avatars/79.png"); }
+#champs-80 a { background-image: url("../images/lol/avatars/80.png"); }
+#champs-81 a { background-image: url("../images/lol/avatars/81.png"); }
+#champs-82 a { background-image: url("../images/lol/avatars/82.png"); }
+#champs-83 a { background-image: url("../images/lol/avatars/83.png"); }
+#champs-84 a { background-image: url("../images/lol/avatars/84.png"); }
+#champs-85 a { background-image: url("../images/lol/avatars/85.png"); }
+#champs-86 a { background-image: url("../images/lol/avatars/86.png"); }
+#champs-87 a { background-image: url("../images/lol/avatars/87.png"); }
+#champs-88 a { background-image: url("../images/lol/avatars/88.png"); }
+#champs-89 a { background-image: url("../images/lol/avatars/89.png"); }
+#champs-90 a { background-image: url("../images/lol/avatars/90.png"); }
+#champs-91 a { background-image: url("../images/lol/avatars/91.png"); }
+#champs-92 a { background-image: url("../images/lol/avatars/92.png"); }
+#champs-93 a { background-image: url("../images/lol/avatars/93.png"); }
+#champs-94 a { background-image: url("../images/lol/avatars/94.png"); }
+#champs-95 a { background-image: url("../images/lol/avatars/95.png"); }
+#champs-96 a { background-image: url("../images/lol/avatars/96.png"); }
+#champs-97 a { background-image: url("../images/lol/avatars/97.png"); }
+#champs-98 a { background-image: url("../images/lol/avatars/98.png"); }
+#champs-99 a { background-image: url("../images/lol/avatars/99.png"); }
+#champs-100 a { background-image: url("../images/lol/avatars/100.png"); }
+#champs-101 a { background-image: url("../images/lol/avatars/101.png"); }
+#champs-102 a { background-image: url("../images/lol/avatars/102.png"); }
+#champs-103 a { background-image: url("../images/lol/avatars/103.png"); }
+#champs-104 a { background-image: url("../images/lol/avatars/104.png"); }
+#champs-105 a { background-image: url("../images/lol/avatars/105.png"); }
+#champs-106 a { background-image: url("../images/lol/avatars/106.png"); }
+#champs-107 a { background-image: url("../images/lol/avatars/107.png"); }
+#champs-108 a { background-image: url("../images/lol/avatars/108.png"); }
+#champs-109 a { background-image: url("../images/lol/avatars/109.png"); }
+#champs-110 a { background-image: url("../images/lol/avatars/110.png"); }
+#champs-111 a { background-image: url("../images/lol/avatars/111.png"); }
+#champs-112 a { background-image: url("../images/lol/avatars/112.png"); }
+#champs-113 a { background-image: url("../images/lol/avatars/113.png"); }
+#champs-114 a { background-image: url("../images/lol/avatars/114.png"); }
+

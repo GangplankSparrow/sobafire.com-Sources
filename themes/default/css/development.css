@@ -1,0 +1,1010 @@
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Scroll Up Feature --------------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+.scrollup {
+	width:40px;
+	height:40px;			
+	text-indent:-9999px;
+	opacity:0.3;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	display:none;			
+	background: url('../images/icon-scroll-top.png') no-repeat;
+}
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Logout Modal (FULL) --------------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+
+.logout-container { 
+	background: #020202 url("../images/login-bg.jpg") repeat-y; 
+	color: #68727b; 
+	font: normal 13px/1.25 "Trebuchet MS", Arial, sans-serif;
+	height: 100px;
+	width: 364px;
+	text-align: left;
+}
+
+/* buttons */
+.logout-container .button1 span { background-image: url("../images/login-button-bg.png"); background-repeat: no-repeat; color: #fff; }
+.logout-container .button1 .button-left { padding: 0 0 0 28px; height: 40px; background-position: 0 1px; }
+.logout-container .button1 .button-right { padding: 0 28px 0 0; height: 40px; line-height: 40px; background-position: 100% -122px; }
+.logout-container .button1.hover .button-left,
+.logout-container .button1:hover .button-left { background-position: 0 -40px; }
+.logout-container .button1.hover .button-right,
+.logout-container .button1:hover .button-right { background-position: 100% -163px; }
+
+/* buttons */
+.logout-container .ui-button { background: none; border: 0; cursor: pointer; display: inline-block; height: auto; overflow: visible; padding: 0; margin: 0; vertical-align: middle; outline: none; text-align: center; white-space: nowrap; cursor: pointer; }
+.logout-container .ui-button span { outline: none; display: inline-block; }
+
+.logout-container h2 { 
+	font-size: 22px; color: #8c99a5; margin: 0 0 15px 0; padding: 5px 5px 5px 5px; letter-spacing: -1px; 
+}
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Genel Form Input ve Button  --------------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+
+
+.input { background-color: #ffffff; font-family: "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif; color: #000; padding-top: 7px; padding-bottom: 7px; font-size: 14px; border: 2px solid #c0c0c0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.input:hover { background-color: #ffffff; }
+.input:focus { background-color: #ffffff; border: 2px solid #175e7c;}
+
+.ui-button { background: none; border: 0; cursor: pointer; display: inline-block; height: auto; overflow: visible; padding: 0; margin: 0; vertical-align: middle; outline: none; text-align: center; white-space: nowrap; cursor: pointer; }
+.ui-button span { outline: none; display: inline-block; }
+
+.button1 span { background-image: url("../images/login-button-bg.png"); background-repeat: no-repeat; color: #fff; }
+.button1 .button-left { padding: 0 0 0 28px; height: 40px; background-position: 0 1px; }
+.button1 .button-right { padding: 0 28px 0 0; height: 40px; line-height: 40px; background-position: 100% -122px; }
+.button1.hover .button-left,
+.button1:hover .button-left { background-position: 0 -40px; }
+.button1.hover .button-right,
+.button1:hover .button-right { background-position: 100% -163px; }
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Register Modal (FULL) --------------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+
+/* Register-success */
+#register-success { 
+	background: #020202 url("../images/login-bg.jpg") repeat-y; 
+	color: #68727b; 
+	font: normal 13px/1.25 "Trebuchet MS", Arial, sans-serif;
+	height: 200px;
+	width: 364px;
+	text-align: left;
+}
+
+#register-success h2 { 
+	font-size: 22px; color: #8c99a5; margin: 0 0 15px 0; padding: 0; letter-spacing: -1px; 
+}
+
+.register-container { 
+	background: #020202 url("../images/login-bg.jpg") repeat-y; 
+	color: #68727b; 
+	font: normal 13px/1.25 "Trebuchet MS", Arial, sans-serif;
+	height: 660px;
+	width: 364px;
+	text-align: left;
+}
+
+.register-container .register-error {
+    margin-bottom: 3px;
+    padding: 3px 10px 3px 30px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    color: #444444;
+	background: #fbe3e4 url(../images/hata.png) 10px center no-repeat; 
+	border-color: #e0011b
+}
+
+.register-container a { color:#0072a3; text-decoration: none; }
+.register-container a:hover, .register-container a:focus { color: #00c0ff; }
+.register-container img { border: 0; }
+
+.register-container h2 { font-size: 28px; color: #8c99a5; margin: 0 0 15px 0; padding: 0; letter-spacing: -1px; }
+.register-container h3 { font-size: 18px; margin: 0 0 15px 0; padding: 0; font-weight: normal; letter-spacing: -1px; }
+
+.register-container .green { color: #0e7800; }
+
+/* classes */
+.register-container .clear { clear: both; display: block; }
+.register-container .ui-cancel { border-left: 1px solid #232628; padding: 0; margin-left: 10px; }
+.register-container .ui-cancel span { padding: 0 15px; }
+
+/* buttons */
+.register-container .button1 span { background-image: url("../images/login-button-bg.png"); background-repeat: no-repeat; color: #fff; }
+.register-container .button1 .button-left { padding: 0 0 0 28px; height: 40px; background-position: 0 1px; }
+.register-container .button1 .button-right { padding: 0 28px 0 0; height: 40px; line-height: 40px; background-position: 100% -122px; }
+.register-container .button1.hover .button-left,
+.register-container .button1:hover .button-left { background-position: 0 -40px; }
+.register-container .button1.hover .button-right,
+.register-container .button1:hover .button-right { background-position: 100% -163px; }
+
+/* form */
+.register-container .input { background-color: #ffffff; font-family: "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif; color: #000; padding-top: 7px; padding-bottom: 7px; font-size: 14px; border: 2px solid #c0c0c0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.register-container .input:hover { background-color: #ffffff; }
+.register-container .input:focus { background-color: #ffffff; border: 2px solid #175e7c;}
+.register-container .label { color: #68727b; display: block; padding-bottom: 2px; font-size: 11px; text-transform: uppercase; }
+
+/* misc */
+.register-container #help-links { list-style: none; margin: 0; padding: 0; }
+.register-container #help-links li { padding: 2px 0 0 20px; margin-bottom: 7px;}
+
+/* form */
+.register-container #form p { margin: 0 0 20px 0; }
+.register-container #form .input { width: 95%; }
+
+/* embedded */
+.register-container #register-area { padding-left: 10px; padding-top: 10px; position: relative; height: 100%;}
+.register-container #register-area div.logo { margin: 0 0 20px 0; padding: 0; text-indent: -9999px; height: 90px; background: url("../images/logo.png") no-repeat; }
+.register-container #register-area p { margin: 0 0 20px 0; }
+.register-container #register-area .input { width: 343px; }
+
+/* buttons */
+.register-container .ui-button { background: none; border: 0; cursor: pointer; display: inline-block; height: auto; overflow: visible; padding: 0; margin: 0; vertical-align: middle; outline: none; text-align: center; white-space: nowrap; cursor: pointer; }
+.register-container .ui-button span { outline: none; display: inline-block; }
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Login Modal (FULL) --------------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+.login-container { 
+	background: #020202 url("../images/login-bg.jpg") repeat-y; 
+	color: #68727b; 
+	font: normal 13px/1.25 "Trebuchet MS", Arial, sans-serif;
+	height: 428px;
+	width: 364px;
+	text-align: left;
+}
+
+.login-container a { color:#0072a3; text-decoration: none; }
+.login-container a:hover, .login-container a:focus { color: #00c0ff; }
+.login-container img { border: 0; }
+
+.login-container h2 { font-size: 28px; color: #8c99a5; margin: 0 0 15px 0; padding: 0; letter-spacing: -1px; }
+.login-container h3 { font-size: 18px; margin: 0 0 15px 0; padding: 0; font-weight: normal; letter-spacing: -1px; }
+
+.login-container .green { color: #0e7800; }
+
+.login-container .login-error {
+    margin-bottom: 3px;
+    padding: 3px 10px 3px 30px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    color: #444444;
+	background: #fbe3e4 url(../images/hata.png) 10px center no-repeat; 
+	border-color: #e0011b
+}
+
+/* classes */
+.login-container .clear { clear: both; display: block; }
+.login-container .ui-cancel { border-left: 1px solid #232628; padding: 0; margin-left: 10px; }
+.login-container .ui-cancel span { padding: 0 15px; }
+
+/* buttons */
+.login-container .button1 span { background-image: url("../images/login-button-bg.png"); background-repeat: no-repeat; color: #fff; }
+.login-container .button1 .button-left { padding: 0 0 0 28px; height: 40px; background-position: 0 1px; }
+.login-container .button1 .button-right { padding: 0 28px 0 0; height: 40px; line-height: 40px; background-position: 100% -122px; }
+.login-container .button1.hover .button-left,
+.login-container .button1:hover .button-left { background-position: 0 -40px; }
+.login-container .button1.hover .button-right,
+.login-container .button1:hover .button-right { background-position: 100% -163px; }
+
+/* form */
+.login-container .input { background-color: #ffffff; font-family: "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif; color: #000; padding-top: 7px; padding-bottom: 7px; font-size: 14px; border: 2px solid #c0c0c0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.login-container .input:hover { background-color: #ffffff; }
+.login-container .input:focus { background-color: #ffffff; border: 2px solid #175e7c;}
+.login-container .label { color: #68727b; display: block; padding-bottom: 2px; font-size: 11px; text-transform: uppercase; }
+
+/* misc */
+.login-container #help-links { list-style: none; margin: 0; padding: 0; }
+.login-container #help-links li { padding: 2px 0 0 20px; margin-bottom: 7px;}
+
+/* form */
+.login-container #form p { margin: 0 0 20px 0; }
+.login-container #form .input { width: 95%; }
+
+/* embedded */
+.login-container #login-area { padding-left: 10px; padding-top: 10px; position: relative; height: 100%;}
+.login-container #login-area div.logo { margin: 0 0 20px 0; padding: 0; text-indent: -9999px; height: 90px; background: url("../images/logo.png") no-repeat; }
+.login-container #login-area p { margin: 0 0 20px 0; }
+.login-container #login-area .input { width: 343px; }
+
+/* buttons */
+.login-container .ui-button { background: none; border: 0; cursor: pointer; display: inline-block; height: auto; overflow: visible; padding: 0; margin: 0; vertical-align: middle; outline: none; text-align: center; white-space: nowrap; cursor: pointer; }
+.login-container .ui-button span { outline: none; display: inline-block; }
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Main_content spotlight eklentisi ------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+
+.spotlight-area {
+	width: 790px;
+	margin: 0px auto;
+	padding: 0px 0px 3px 0px;
+}
+.spotlight-area img, .spotlight-area embed {
+	max-width: 100%;
+	height: auto;
+	min-height: 50px;
+}
+
+.spotlight-area .spotlight {
+	display: block;
+	border-top: 1px solid #3b3b3b;
+	border-left: 1px solid #3b3b3b;
+	float: left;
+	margin-bottom: 0px;
+}
+
+.spotlight-area .spotlight .width-1 { width: 339px }
+.spotlight-area .spotlight .width-2 { width: 448px }
+.spotlight-area .spotlight .height-1 { height: 174px }
+.spotlight-area .spotlight .height-2 { height: 349px }
+.spotlight-area .spotlight .spotlight-item {
+	float: left;
+	position: relative;
+	border-bottom: 1px solid #3b3b3b;
+	border-right: 1px solid #3b3b3b;
+	overflow: hidden;
+}
+
+/* play button */
+.spotlight-area .spotlight .spotlight-item img.play-button-big,
+.spotlight-area .spotlight .spotlight-item img.play-button-small {
+	visibility: hidden;	
+}
+
+/* play button big hover */
+.spotlight-area .spotlight .spotlight-item:hover img.play-button-big {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 130px;
+    height: 130px;
+    margin-top: -65px; /* Half the height */
+    margin-left: -65px; /* Half the width */
+	visibility: visible;
+}
+
+/* play button small hover */
+.spotlight-area .spotlight .spotlight-item:hover img.play-button-small {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 70px;
+	height: 70px;
+	margin-top: -35px; /* Half the height */
+	margin-left: -35px; /* Half the width */
+	visibility: visible;
+}
+
+/* h2 normal spotlight */
+.spotlight-area .spotlight .spotlight-item:hover .spotlight-info h2 {
+	color: #ffc203;
+}
+
+.spotlight-area .spotlight .spotlight-item .spotlight-info h2 {
+	position:relative;
+	z-index: 2;
+	max-width: 480px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #f0f0f0;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 3px 3px 3px 3px;
+}
+
+/* h2 large spotlight */
+.spotlight-area .spotlight .spotlight-item:hover .spotlight-info h2.large {
+	color: #ffc203;
+}
+
+.spotlight-area .spotlight .spotlight-item .spotlight-info h2.large {
+	position:relative;
+	z-index: 2;
+	max-width: 480px;
+	font-size: 30px;
+	line-height: 42px;
+	color: #f0f0f0;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 7px 7px 7px 7px;
+}
+
+
+.spotlight-area .spotlight .spotlight-item img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	border: 0;
+}
+
+.spotlight-area .spotlight-info {
+	display: block;
+	height: 100%;
+	min-height: 50px;
+}
+
+.spotlight-area .spotlight-info a {
+	display: block;
+	height: 100%;
+	min-height: 50px;
+}
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Browse Builds Rewrite -----------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+	
+	Background Text: picfont DEGR
+	Background Text Yatýklýk : %30
+	Background Image: 790 x 90
+	
+	Tag Text: Picfont Tondo (outline) 10 boyut
+	
+*/
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- ANASAYFA RESTYLING --------------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+
+/*-------------------------- Anasayfa.PROFESYONEL OYUNCU (Baþlangýç) ------------- */
+div.homepage-browseBuildsArea-pro {
+	float: left; position: relative; overflow: hidden; display: table; width: 340px; height: 90px; 
+	background-image:url('../images/builds/builds-bg-pro.png'); 
+	background-repeat:no-repeat;
+}
+
+/* Link colors */
+div.homepage-browseBuildsArea-pro  A:active, 
+div.homepage-browseBuildsArea-pro  A:visited, 
+div.homepage-browseBuildsArea-pro  A:link { text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.3); padding: 4px; font-size: 12px; }
+div.homepage-browseBuildsArea-pro  A:hover {text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.9); padding: 4px; font-size: 12px; }
+
+/* Champ image */
+div.homepage-browseBuildsArea-pro div.champion {
+	display: table-cell; width: 100px;
+}
+
+div.homepage-browseBuildsArea-pro img.champion {
+	display: block; height: 74px; margin-left: 14px; margin-top: 7px; border-radius: 5px; 
+	-moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* build poster */
+div.homepage-browseBuildsArea-pro div.build-poster {
+	position: absolute; right: 0px; bottom: 2px;
+}
+
+/* Build baslik */
+div.homepage-browseBuildsArea-pro div.build-name {
+	display: table-cell; vertical-align: middle; position: relative; width: 225px; min-width: 225px; padding-left: 15px;
+}
+
+div.homepage-browseBuildsArea-pro div.build-name div.inner {
+	position: relative; top: -50%;
+}
+
+/* Progress Bar */
+div.homepage-browseBuildsArea-pro div.progress-for-build-listing {
+	 display: table-cell; vertical-align: middle; position: relative; width: 200px; min-width: 200px;
+}
+
+div.homepage-browseBuildsArea-pro div.progress-for-build-listing div.inner {
+	position: relative; top: -50%;
+}
+
+/* Information alaný */
+div.homepage-browseBuildsArea-pro div.information {
+	position: absolute; right: 0px; top: 0px;
+}
+
+div.homepage-browseBuildsArea-pro div.information img {
+	margin-top: 2px;
+	height: 20px;
+	padding-left: 2px;
+}
+/*-------------------------- Anasayfa.PROFESYONEL OYUNCU (Son) ------------- */
+/*-------------------------- Anasayfa.Sobafire (Baþlangýç) ------------- */
+div.homepage-browseBuildsArea-sobafire {
+	float: left; position: relative; overflow: hidden; display: table; width: 340px; height: 90px; 
+	background-image:url('../images/builds/builds-bg-sobafire.png'); 
+	background-repeat:no-repeat;
+}
+
+/* Link colors */
+div.homepage-browseBuildsArea-sobafire  A:active, 
+div.homepage-browseBuildsArea-sobafire  A:visited, 
+div.homepage-browseBuildsArea-sobafire  A:link { text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.3); padding: 4px; font-size: 12px; }
+div.homepage-browseBuildsArea-sobafire  A:hover {text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.9); padding: 4px; font-size: 12px; }
+
+/* Champ image */
+div.homepage-browseBuildsArea-sobafire div.champion {
+	display: table-cell; width: 100px;
+}
+
+div.homepage-browseBuildsArea-sobafire img.champion {
+	display: block; height: 74px; margin-left: 14px; margin-top: 7px; border-radius: 5px; 
+	-moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* build poster */
+div.homepage-browseBuildsArea-sobafire div.build-poster {
+	position: absolute; right: 0px; bottom: 2px;
+}
+
+/* Build baslik */
+div.homepage-browseBuildsArea-sobafire div.build-name {
+	display: table-cell; vertical-align: middle; position: relative; width: 225px; min-width: 225px; padding-left: 15px;
+}
+
+div.homepage-browseBuildsArea-sobafire div.build-name div.inner {
+	position: relative; top: -50%;
+}
+
+/* Progress Bar */
+div.homepage-browseBuildsArea-sobafire div.progress-for-build-listing {
+	 display: table-cell; vertical-align: middle; position: relative; width: 200px; min-width: 200px;
+}
+
+div.homepage-browseBuildsArea-sobafire div.progress-for-build-listing div.inner {
+	position: relative; top: -50%;
+}
+
+/* Information alaný */
+div.homepage-browseBuildsArea-sobafire div.information {
+	position: absolute; right: 0px; top: 0px;
+}
+
+div.homepage-browseBuildsArea-sobafire div.information img {
+	margin-top: 2px;
+	height: 20px;
+	padding-left: 2px;
+}
+/*-------------------------- Anasayfa.Sobafire OYUNCU (Son) ------------- */
+/*--------------------------  Anasayfa.Normal (Baþlangýç) ------------- */
+div.homepage-browseBuildsArea-normal {
+	float: left; position: relative; overflow: hidden; display: table; width: 340px; height: 90px; 
+	background-image:url('../images/builds/builds-bg-normal.png'); 
+	background-repeat:no-repeat;
+}
+
+/* Link colors */
+div.homepage-browseBuildsArea-normal  A:active, 
+div.homepage-browseBuildsArea-normal  A:visited, 
+div.homepage-browseBuildsArea-normal  A:link { text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.3); padding: 4px; font-size: 12px; }
+div.homepage-browseBuildsArea-normal  A:hover {text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.9); padding: 4px; font-size: 12px; }
+/* Champ image */
+div.homepage-browseBuildsArea-normal div.champion {
+	display: table-cell; width: 88px; min-width: 88px;
+}
+
+div.homepage-browseBuildsArea-normal img.champion {
+	display: block; height: 50px; margin-left: 26px; margin-top: 19px; border-radius: 5px; 
+	-moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* build poster */
+div.homepage-browseBuildsArea-normal div.build-poster {
+	position: absolute; right: 0px; bottom: 2px;
+}
+
+/* Build baslik */
+div.homepage-browseBuildsArea-normal div.build-name {
+	display: table-cell; vertical-align: middle; position: relative; width: 225px; min-width: 225px; padding-left: 15px;
+}
+
+div.homepage-browseBuildsArea-normal div.build-name div.inner {
+	position: relative; top: -50%;
+}
+
+/* Progress Bar */
+div.homepage-browseBuildsArea-normal div.progress-for-build-listing {
+	 display: table-cell; vertical-align: middle; position: relative; width: 200px; min-width: 200px;
+}
+
+div.homepage-browseBuildsArea-normal div.progress-for-build-listing div.inner {
+	position: relative; top: -50%;
+}
+
+/* Information alaný */
+div.homepage-browseBuildsArea-normal div.information {
+	position: absolute; right: 0px; top: 0px;
+}
+
+div.homepage-browseBuildsArea-normal div.information img {
+	margin-top: 2px;
+	height: 20px;
+	padding-left: 2px;
+}
+
+/*--------------------------  Anasayfa.Normal (Son) ------------- */
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- BROWSEBUILDS RESTYLING ---------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+
+/*-------------------------- Browsebuilds.PROFESYONEL OYUNCU (Baþlangýç) ------------- */
+div.browseBuildsArea-pro {
+	float: left; position: relative; overflow: hidden; display: table; width: 790px; height: 90px; 
+	background-image:url('../images/builds/builds-bg-pro.png'); 
+	background-repeat:no-repeat;
+}
+
+/* Link colors */
+div.browseBuildsArea-pro  A:active, 
+div.browseBuildsArea-pro  A:visited, 
+div.browseBuildsArea-pro  A:link { text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.3); padding: 10px; }
+div.browseBuildsArea-pro  A:hover {text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.9); padding: 10px;}
+
+/* Champ image */
+div.browseBuildsArea-pro div.champion {
+	display: table-cell; width: 100px;
+}
+
+div.browseBuildsArea-pro img.champion {
+	display: block; height: 74px; margin-left: 14px; margin-top: 7px; border-radius: 5px; 
+	-moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* Build yazar */
+div.browseBuildsArea-pro div.build-poster {
+	display: table-cell; vertical-align: middle; position: relative; width: 100px; min-width: 100px; padding-left: 15px;
+}
+
+div.browseBuildsArea-pro div.build-poster div.inner {
+	position: relative; top: -50%;
+}
+
+/* Build baslik */
+div.browseBuildsArea-pro div.build-name {
+	display: table-cell; vertical-align: middle; position: relative; width: 370px; min-width: 370px; padding-left: 15px;
+}
+
+div.browseBuildsArea-pro div.build-name div.inner {
+	position: relative; top: -50%;
+}
+
+/* Progress Bar */
+div.browseBuildsArea-pro div.progress-for-build-listing {
+	 display: table-cell; vertical-align: middle; position: relative; width: 200px; min-width: 200px;
+}
+
+div.browseBuildsArea-pro div.progress-for-build-listing div.inner {
+	position: relative; top: -50%;
+}
+
+/* Information alaný */
+div.browseBuildsArea-pro div.information {
+	position: absolute; right: 5px; top: 0px;
+}
+
+div.browseBuildsArea-pro div.information img {
+	margin-top: 2px;
+	height: 20px;
+	padding-left: 2px;
+}
+
+/*--------------------------  Browsebuilds.PROFESYONEL OYUNCU (Son) ------------- */
+/*--------------------------  Browsebuilds.TEAM SOBAFIRE (Baþlangýç) ------------- */
+div.browseBuildsArea-sobafire {
+	float: left; position: relative; overflow: hidden; display: table; width: 790px; height: 90px; 
+	background-image:url('../images/builds/builds-bg-sobafire.png'); 
+	background-repeat:no-repeat;
+}
+
+/* Link colors */
+div.browseBuildsArea-sobafire  A:active, 
+div.browseBuildsArea-sobafire  A:visited, 
+div.browseBuildsArea-sobafire  A:link { text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.3); padding: 10px; }
+div.browseBuildsArea-sobafire  A:hover {text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.9); padding: 10px;}
+
+/* Champ image */
+div.browseBuildsArea-sobafire div.champion {
+	display: table-cell; width: 100px;
+}
+
+div.browseBuildsArea-sobafire img.champion {
+	display: block; height: 74px; margin-left: 14px; margin-top: 7px; border-radius: 5px; 
+	-moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* Build yazar */
+div.browseBuildsArea-sobafire div.build-poster {
+	display: table-cell; vertical-align: middle; position: relative; width: 100px; min-width: 100px; padding-left: 15px;
+}
+
+div.browseBuildsArea-sobafire div.build-poster div.inner {
+	position: relative; top: -50%;
+}
+
+/* Build baslik */
+div.browseBuildsArea-sobafire div.build-name {
+	display: table-cell; vertical-align: middle; position: relative; width: 370px; min-width: 370px; padding-left: 15px;
+}
+
+div.browseBuildsArea-sobafire div.build-name div.inner {
+	position: relative; top: -50%;
+}
+
+/* Progress Bar */
+div.browseBuildsArea-sobafire div.progress-for-build-listing {
+	 display: table-cell; vertical-align: middle; position: relative; width: 200px; min-width: 200px;
+}
+
+div.browseBuildsArea-sobafire div.progress-for-build-listing div.inner {
+	position: relative; top: -50%;
+}
+
+/* Information alaný */
+div.browseBuildsArea-sobafire div.information {
+	position: absolute; right: 5px; top: 0px;
+}
+
+div.browseBuildsArea-sobafire div.information img {
+	margin-top: 2px;
+	height: 20px;
+	padding-left: 2px;
+}
+
+/*--------------------------  Browsebuilds.TEAM SOBAFIRE (Son) ------------- */
+/*--------------------------  Browsebuilds.TROLL (Baþlangýç) ------------- */
+div.browseBuildsArea-troll {
+	float: left; position: relative; overflow: hidden; display: table; width: 790px; height: 90px; 
+	background-image:url('../images/builds/builds-bg-troll.png'); 
+	background-repeat:no-repeat;
+}
+
+/* Link colors */
+div.browseBuildsArea-troll  A:active, 
+div.browseBuildsArea-troll  A:visited, 
+div.browseBuildsArea-troll  A:link { text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.3); padding: 10px; }
+div.browseBuildsArea-troll  A:hover {text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.9); padding: 10px;}
+
+/* Champ image */
+div.browseBuildsArea-troll div.champion {
+	display: table-cell; width: 100px;
+}
+
+div.browseBuildsArea-troll img.champion {
+	display: block; height: 74px; margin-left: 14px; margin-top: 7px; border-radius: 5px; 
+	-moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* Build yazar */
+div.browseBuildsArea-troll div.build-poster {
+	display: table-cell; vertical-align: middle; position: relative; width: 100px; min-width: 100px; padding-left: 15px;
+}
+
+div.browseBuildsArea-troll div.build-poster div.inner {
+	position: relative; top: -50%;
+}
+
+/* Build baslik */
+div.browseBuildsArea-troll div.build-name {
+	display: table-cell; vertical-align: middle; position: relative; width: 370px; min-width: 370px; padding-left: 15px;
+}
+
+div.browseBuildsArea-troll div.build-name div.inner {
+	position: relative; top: -50%;
+}
+
+/* Progress Bar */
+div.browseBuildsArea-troll div.progress-for-build-listing {
+	 display: table-cell; vertical-align: middle; position: relative; width: 200px; min-width: 200px;
+}
+
+div.browseBuildsArea-troll div.progress-for-build-listing div.inner {
+	position: relative; top: -50%;
+}
+
+/* Information alaný */
+div.browseBuildsArea-troll div.information {
+	position: absolute; right: 5px; top: 0px;
+}
+
+div.browseBuildsArea-troll div.information img {
+	margin-top: 2px;
+	height: 20px;
+	padding-left: 2px;
+}
+
+/*--------------------------  Browsebuilds.TROLL (Son) ------------- */
+/*--------------------------  Browsebuilds.Normal (Baþlangýç) ------------- */
+div.browseBuildsArea-normal {
+	float: left; position: relative; overflow: hidden; display: table; width: 790px; height: 90px; 
+	background-image:url('../images/builds/builds-bg-normal.png'); 
+	background-repeat:no-repeat;
+}
+
+/* Link colors */
+div.browseBuildsArea-normal  A:active, 
+div.browseBuildsArea-normal  A:visited, 
+div.browseBuildsArea-normal  A:link { text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.3); padding: 10px; }
+div.browseBuildsArea-normal  A:hover {text-decoration: none; color: #dddddd; background-color: rgba(0, 0, 0, 0.9); padding: 10px;}
+
+/* Champ image */
+div.browseBuildsArea-normal div.champion {
+	display: table-cell; width: 85px; min-width: 85px;
+}
+
+div.browseBuildsArea-normal img.champion {
+	display: block; height: 50px; margin-left: 26px; margin-top: 19px; border-radius: 5px; 
+	-moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* Build yazar */
+div.browseBuildsArea-normal div.build-poster {
+	display: table-cell; vertical-align: middle; position: relative; width: 100px; min-width: 100px; padding-left: 15px;
+}
+
+div.browseBuildsArea-normal div.build-poster div.inner {
+	position: relative; top: -50%;
+}
+
+/* Build baslik */
+div.browseBuildsArea-normal div.build-name {
+	display: table-cell; vertical-align: middle; position: relative; width: 370px; min-width: 370px; padding-left: 15px;
+}
+
+div.browseBuildsArea-normal div.build-name div.inner {
+	position: relative; top: -50%;
+}
+
+/* Progress Bar */
+div.browseBuildsArea-normal div.progress-for-build-listing {
+	 display: table-cell; vertical-align: middle; position: relative; width: 200px; min-width: 200px;
+}
+
+div.browseBuildsArea-normal div.progress-for-build-listing div.inner {
+	position: relative; top: -50%;
+}
+
+/* Information alaný */
+div.browseBuildsArea-normal div.information {
+	position: absolute; right: 5px; top: 0px;
+}
+
+div.browseBuildsArea-normal div.information img {
+	margin-top: 2px;
+	height: 20px;
+	padding-left: 2px;
+}
+
+/*--------------------------  Browsebuilds.Normal (Son) ------------- */
+
+
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Progress Bar --------------------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+
+	
+.progress {
+  padding: 4px;
+}
+
+.progress-bar {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar:before, .progress-bar:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar:before {
+  bottom: 0;
+  background: url("../images/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+
+#fifty {
+	width: 50%;
+	background-color: #f2b01e;
+}
+
+/*
+    ------------------------------------------------------------------------------------------------
+	-- Genel Response Stilleri ---------------------------------------------------------------------
+	------------------------------------------------------------------------------------------------
+*/
+
+.response-error {
+    margin-bottom: 3px;
+    padding: 3px 10px 3px 30px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    color: #444444;
+	background: #fbe3e4 url(../images/hata.png) 10px center no-repeat; 
+	border-color: #e0011b
+}
+
+.response-success {
+    margin-bottom: 3px;
+    padding: 3px 10px 3px 30px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    color: #444444;
+	background: #72c868 url(../images/tamam.png) 10px center no-repeat; 
+	border-color: #72c868;
+}
+
+/*
+	Sobafire S3 Öncesi
+*/
+div.centered {
+	text-align: center;
+}
+
+div.leftArea form {
+	display: inline-block;
+}
+
+div.leftArea form.centered {
+	display: inline-block;
+}
+
+div.leftArea form.stylish {
+	padding: 10px 10px 10px 10px;
+	/* background: #020202 url("../images/login-bg.jpg") repeat; */ 
+	background-color: #121212;
+	border-radius: 15px; 
+	-moz-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	color: #68727b; 
+	font: normal 13px/1.25 "Trebuchet MS", Arial, sans-serif;
+	height: auto;
+	width: auto;
+	text-align: left;
+}
+
+div.leftArea input, div.leftArea textarea {
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+
+
+
+
+div.leftArea {  
+    padding-top: 0px;  
+    padding-right: 0px;  
+    padding-bottom: 0px;  
+    padding-left: 0px; 
+}  
+
+div.leftArea h2 {  
+    font-size: 30px;
+	text-align: center;
+	color: #a12345;
+}  
+
+div.leftArea p {  
+    font-size: 12px;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 3px;
+}  
+
+.login-container { 
+	background: #020202 url("../images/login-bg.jpg") repeat-y; 
+	color: #68727b; 
+	font: normal 13px/1.25 "Trebuchet MS", Arial, sans-serif;
+	height: 428px;
+	width: 364px;
+	text-align: left;
+}
+
+.leftArea .error {
+    margin-bottom: 3px;
+    padding: 3px 10px 3px 30px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    color: #444444;
+	background: #fbe3e4 url(../images/hata.png) 10px center no-repeat; 
+	border-color: #e0011b
+}
+
+/* classes */
+.leftArea .clear { clear: both; display: block; }
+.leftArea .ui-cancel { border-left: 1px solid #232628; padding: 0; margin-left: 10px; }
+.leftArea .ui-cancel span { padding: 0 15px; }
+
+/* buttons */
+.leftArea .button1 span { background-image: url("../images/login-button-bg.png"); background-repeat: no-repeat; color: #fff; }
+.leftArea .button1 .button-left { padding: 0 0 0 28px; height: 40px; background-position: 0 1px; }
+.leftArea .button1 .button-right { padding: 0 28px 0 0; height: 40px; line-height: 40px; background-position: 100% -122px; }
+.leftArea .button1.hover .button-left,
+.leftArea .button1:hover .button-left { background-position: 0 -40px; }
+.leftArea .button1.hover .button-right,
+.leftArea .button1:hover .button-right { background-position: 100% -163px; }
+
+/* form */
+.leftArea .input { background-color: #ffffff; font-family: "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif; color: #000; padding-top: 7px; padding-bottom: 7px; font-size: 14px; border: 2px solid #c0c0c0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.leftArea .input:hover { background-color: #ffffff; }
+.leftArea .input:focus { background-color: #ffffff; border: 2px solid #175e7c;}
+.leftArea .label { color: #68727b; display: block; padding-bottom: 2px; font-size: 11px; text-transform: uppercase; }
+
+/* misc */
+.leftArea #help-links { list-style: none; margin: 0; padding: 0; }
+.leftArea #help-links li { padding: 2px 0 0 20px; margin-bottom: 7px;}
+
+/* form */
+.leftArear #form p { margin: 0 0 20px 0; }
+.leftArea #form .input { width: 95%; }
+
+/* embedded */
+.leftArea #login-area { padding-left: 10px; padding-top: 10px; position: relative; height: 100%;}
+.leftArea #login-area div.logo { margin: 0 0 20px 0; padding: 0; text-indent: -9999px; height: 90px; background: url("../images/logo.png") no-repeat; }
+.leftArea #login-area p { margin: 0 0 20px 0; }
+.leftArea #login-area .input { width: 343px; }
+
+/* buttons */
+.leftArea .ui-button { background: none; border: 0; cursor: pointer; display: inline-block; height: auto; overflow: visible; padding: 0; margin: 0; vertical-align: middle; outline: none; text-align: center; white-space: nowrap; cursor: pointer; }
+.leftArea .ui-button span { outline: none; display: inline-block; }
+	
+div.leftArea A:link { text-decoration: none; color: #a12345;}
+div.leftArea A:visited { text-decoration: none; color: #a12345;}
+div.leftArea A:active { text-decoration: none; color: #a12345;}
+div.leftArea A:hover {text-decoration: underline; color: red;}

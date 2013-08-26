@@ -1,0 +1,31 @@
+RewriteEngine On  
+RewriteBase /
+RewriteRule ^lol_turkce_build_([a-zA-Z0-9-_]+)-([0-9]+).html$ /?page=build&sef=$1&buildID=$2 [qsappend]
+RewriteRule ^haber_([a-zA-Z0-9-_]+)-([0-9]+).html$ /?page=newsdetail&sef=$1&newID=$2 [qsappend]
+RewriteRule ^build-listesi.html$ /?page=browsebuilds [qsappend]
+RewriteRule ^build-listesi_([a-zA-Z0-9-_]+).html$ /?page=browsebuilds&champID=$1 [qsappend]
+RewriteRule ^profesyonel-oyuncu-build-listesi.html$ /?page=browsebuilds&type=2 [qsappend]
+RewriteRule ^team-sobafire-build-listesi.html$ /?page=browsebuilds&type=1 [qsappend]
+RewriteRule ^kullanici_([a-zA-Z0-9-_]+).html$ /?page=viewprofile&username=$1 [qsappend]
+RewriteRule ^oyuncu-listesi.html$ /?page=browseusers [qsappend]
+RewriteRule ^takim-listesi.html$ /?page=browseteams [qsappend]
+RewriteRule ^turnuva-listesi.html$ /?page=browsetournaments [qsappend]
+RewriteRule ^takim-listesi.html$ /?page=browseteams [qsappend]
+RewriteRule ^sobafire_([a-zA-Z0-9-_]+).html$ /?page=sobafire&s=$1 [qsappend]
+RewriteRule ^kayit.html$ /?page=register [qsappend]
+RewriteRule ^login.html$ /?page=login [qsappend]
+RewriteRule ^logout.html$ /?page=logout [qsappend]
+RewriteRule ^livestream_listesi.html$	/?page=browsevideos&s=1 [qsappend]
+RewriteRule ^video_listesi.html$	/?page=browsevideos&s=2 [qsappend]
+RewriteRule ^lolreplay_listesi.html$	/?page=browsevideos&s=3 [qsappend]
+RewriteRule ^video_izle-([0-9]+).html$ /?page=browsevideos&s=2&videoID=$1 [qsappend]
+RewriteRule ^profilim.html$	/?page=account [qsappend]
+RewriteRule ^tournament.html$	/?page=tournament [qsappend]
+RewriteRule ^forum.html$	/?page=forum [qsappend]
+
+RewriteRule ^sampiyon_bilgisi.xml$ ./xml/sampiyon_bilgisi.php [qsappend]
+
+<filesmatch "\.(jpg|gif|png|css|js)$">
+    ExpiresActive on
+    ExpiresDefault "access plus 1 month"
+</filesmatch>
