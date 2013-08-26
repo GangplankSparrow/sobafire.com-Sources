@@ -25,6 +25,7 @@ For example, some champions like Evelynn, Karma, Master Yi got reworks, some had
 > I strongly suggest wikifying your content tables or developing a bot which updates database.
 
 **License**
+
 Released everything under MIT license so you can do whatever you want with this project. It's all yours. 
 
 Assets under `themes/default/images/lol` folder belongs to Riot Games.
