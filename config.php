@@ -3,56 +3,50 @@
 	if (!defined('ARISTONA') || ARISTONA != 1)
 		die();
 
-/*
-	Veritabanı Ayarları
-*/
+	/*
+	|  Database Settings
+	*/
 	
-	//Host
-	$config['DB']['HOST'] = 'DBHOST';
-	
-	//Database Adı
+	$config['DB']['HOST'] 	= 'DBHOST';
 	$config['DB']['DBNAME'] = 'DBNAME';
-	
-	//Database Kullanıcısı
-	$config['DB']['USER'] = 'DBUSER';
-	
-	//Database Şifresi
-	$config['DB']['PASS'] = 'DBPASS';
+	$config['DB']['USER'] 	= 'DBUSER';
+	$config['DB']['PASS'] 	= 'DBPASS';
 
-/*
-	Site Ayarları
-*/
-	//Website Adresi
+	/*
+	| Site Settings
+	*/
+	
+	//Domain
 	$config['SITE']['HOST'] = 'http://www.sobafire.com/';
 	
-	//Title Başlangıcı
+	//Title prefix
 	$config['SITE']['TITLE'] = 'Sobafire.com :: ';
 	
-	//Site Adı
+	//Site name
 	$config['SITE']['NAME'] = 'Sobafire.com';
 	
-	//Forum Adresi
+	//Forum address
 	$config['SITE']['FORUM'] = '#'; 
 
-	//FTP Adresi
+	//FTP Address
 	$config['SITE']['FTP'] = '#';
 	
-	//Kayıt olma açıkmı?
+	//Registration status
 	$config['SITE']['REGISTRATION'] = TRUE; 
 	
-	//Sunucu bakımı açıkmı?
+	//Mainteance mode status
 	$config['SITE']['MAINTENANCE'] = FALSE; 
 	
-	//Debug mesajları gösterilsinmi?
+	//Enable/disable debug messages
 	$config['SITE']['DEBUG'] = TRUE; 
 	
-	//İletişim Sayfası için E-mail
+	//E-mail address for contact forms
 	$config['SITE']['E_MAIL'] = 'example@example.com';
 	
-	//Sitenin Google'da çıkması için kelimeler
+	//Keywords
 	$config['SITE']['KEYWORDS'] = 'league of legends, lol, lol builds, lol türkiye, lol türkçe, lol türkçe build, lol türkçe fan sitesi, lol türkçe rehber, league of legends türkçe rehber, league of legends türkçe build, lol türkçe build, lol patch notları, league of legends türkçe patch notları, league of legends Türkçe çeviri, lol Türkçe çeviri';
 	
-    // Sitenin kısa açıklaması	
+    	// Description	
 	$config['SITE']['DESCRIPTION'] = 'Sobafire.com - Türkiye\'nin ilk ve tek Türkçe build paylaşım platformu.';
 
 ?>
