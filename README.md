@@ -22,7 +22,7 @@ Although I kept content up to date with League of Legends during 2011 and early 
 
 For example, some champions like Evelynn, Karma, Master Yi got reworks, some had their skills changed, alot of new champions released (we support pre-Zed era), mastery pages got reworked during season 3, new items and new runes added to game, some items (RIP Heart of Gold) removed from the game, icons updated etc. Database in current state has alot of work to do. 
 
-> I strongly suggest wikifying your content tables or developing a bot which updates database.
+> I strongly suggest wikifying your content tables or developing a bot which updates database. Riot Games likes to do balance patches so often (especially during season 3) and I assure you, your database will fall behind pretty quickly if you don't consider those options.
 
 **License**
 
