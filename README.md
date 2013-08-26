@@ -1,7 +1,7 @@
 sobafire.com-Sources
 ====================
 
-> This is an old, untested project which I coded for educational purposes. Development started during 2011 and ended early 2012. It doesn't support features like coding standards, autoloading, Composer, PDO or ORM tools (relies on prepared mysql_* queries, which is bad.) and there are alot of mistakes I did which I no longer do. It was a project which never supposed to be open sourced. I put it here just for reference purposes. Use it on your own risk.
+> Sobafire is an old, untested project which I coded just for educational purposes. Development started during 2011 and ended early 2012. It doesn't support features like coding standards, autoloading, Composer, PDO or ORM tools (relies on prepared mysql_* queries, which is bad.) and there are alot of mistakes I did which I no longer do. It was a project which never supposed to be open sourced. I put it here just for reference purposes. Use it on your own risk.
 
 **Introduction**
 
@@ -24,4 +24,7 @@ For example, some champions like Evelynn, Karma, Master Yi got reworks, some had
 
 > I strongly suggest wikifying your content tables or developing a bot which updates database.
 
-That's all - it's all yours. Released everything under MIT license so you can do whatever you want with this project.
+**License**
+Released everything under MIT license so you can do whatever you want with this project. It's all yours. 
+
+Assets under `themes/default/images/lol` folder belongs to Riot Games.
